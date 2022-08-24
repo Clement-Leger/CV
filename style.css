@@ -20,13 +20,55 @@ h1{
     text-align: center;
     color: gray;
     font-size: 26px;
-    border-bottom: solid 5px #0d6ff2;
+    /* border-bottom: solid 5px #0d6ff2;
     border-right: solid 5px #0d6ff2;
     border-top: solid 5px #6FF20D;
-    border-left: solid 5px #6FF20D;
+    border-left: solid 5px #6FF20D; */
     width: 250px;
     grid-column: 2/4;
     grid-row: 1;
+    z-index: 1;
+}
+
+#cadreUn{
+    width: 250px;
+    height: 50px;
+    border-bottom: solid 5px #0d6ff2;
+    border-right: solid 5px #0d6ff2;
+    position: absolute;
+    right: 418px;
+    top: 73px;
+}
+
+h1:hover #cadreUn{
+    right: 390px;
+    top: 84px;
+    transition: ease-in-out 1s;
+}
+
+#cadreDeux{
+    width: 250px;
+    height: 50px;
+    border-top: solid 5px #6FF20D;
+    border-left: solid 5px #6FF20D;
+    position: absolute;
+    left: 619px;
+    top: 73px;
+}
+
+h1:hover #cadreDeux{
+    left: 600px;
+    top: 50px;
+    transition: ease-in-out 1s;
+}
+
+h1:hover{
+    /* border-bottom: solid 10px #0d6ff2;
+    border-right: solid 10px #0d6ff2;
+    border-top: solid 10px #6FF20D;
+    border-left: solid 10px #6FF20D; */
+    /* transform: rotateZ(360deg); */
+    transition: ease-in-out 1s;
 }
 
 h2{
