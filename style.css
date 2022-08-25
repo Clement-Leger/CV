@@ -234,12 +234,14 @@ a:hover{
     }
 
     #lien-mobile-Github{
+        display: block;
         grid-column: 1/3;
         grid-row: 3;
         margin-left: 40px;
     }
     
     #lien-mobile-Linkedin{
+        display: block;
         grid-column: 2/4;
         grid-row: 3;
         margin-left: 112px;
