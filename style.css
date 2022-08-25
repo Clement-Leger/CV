@@ -127,7 +127,7 @@ h2{
 
 #colTwo{
     border-left: dashed 1px black;
-    height: 325px;
+    height: 385px;
     width: 1px;
     grid-column: 4;
     grid-row: 4/5;
