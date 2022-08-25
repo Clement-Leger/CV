@@ -27,47 +27,6 @@ h1{
     z-index: 1;
 }
 
-#cadreUn{
-    width: 250px;
-    height: 50px;
-    border-bottom: solid 5px #0d6ff2;
-    border-right: solid 5px #0d6ff2;
-    /* position: absolute;
-    right: 418px;
-    top: 73px; */
-}
-
-h1:hover #cadreUn{
-    right: 390px;
-    top: 84px;
-    transition: ease-in-out 1s;
-}
-
-#cadreDeux{
-    width: 250px;
-    height: 50px;
-    border-top: solid 5px #6FF20D;
-    border-left: solid 5px #6FF20D;
-    /* position: absolute;
-    left: 619px;
-    top: 73px; */
-}
-
-h1:hover #cadreDeux{
-    left: 600px;
-    top: 50px;
-    transition: ease-in-out 1s;
-}
-
-h1:hover{
-    /* border-bottom: solid 10px #0d6ff2;
-    border-right: solid 10px #0d6ff2;
-    border-top: solid 10px #6FF20D;
-    border-left: solid 10px #6FF20D; */
-    /* transform: rotateZ(360deg); */
-    transition: ease-in-out 1s;
-}
-
 h2{
     font-size: medium;
 }
@@ -110,8 +69,6 @@ h2{
 #competences{
     grid-column: 1/2;
     grid-row: 5;
-    /* position: relative;
-    top: -25px; */
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -132,8 +89,6 @@ h2{
     grid-row: 2/3;
     border-bottom: 2px solid grey;
     margin-bottom: -30px;
-    /* position: relative;
-    top: -30px; */
 }
 
 #xp{
@@ -142,8 +97,6 @@ h2{
     text-align: justify;
     grid-column: 2/4;
     grid-row:4/6;
-    /* position: relative;
-    top: -10px; */
 }
 
 #scolaire{
@@ -154,8 +107,6 @@ h2{
     grid-row: 6/7;
     border-top: 2px solid grey;
     padding-top: 25px;
-    /* position: relative;
-    top: -70px; */
 }
 
 #personnalite{
@@ -163,8 +114,6 @@ h2{
     text-align: justify;
     grid-column:4/7;
     grid-row:4/6;
-    /* position: relative;
-    top: -60px; */
 }
 
 /* STYLE GRID */
@@ -183,9 +132,6 @@ h2{
     grid-column: 4;
     grid-row: 4/5;
     margin-left: 80px;
-    /* position: relative;
-    top: 320px;
-    right: 220px; */
 }
 
 /* STYLE LISTE PUCES */
