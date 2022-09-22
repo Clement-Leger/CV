@@ -9,7 +9,7 @@ body{
 #grid{
     display: grid;
     grid-template-columns:repeat(6, 1fr);
-    grid-template-rows: 200px 125px 50px 170px 235px 200px;
+    grid-template-rows: 200px 125px 50px 170px 235px 200px 70px;
 }
 
 h1{
@@ -71,6 +71,7 @@ h2{
     grid-row: 5;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 30px;
 }
 
 #hobbies{
@@ -88,7 +89,7 @@ h2{
     grid-column: 2/7;
     grid-row: 2/3;
     border-bottom: 2px solid grey;
-    margin-bottom: -30px;
+    margin-bottom: -44px;
 }
 
 #xp{
@@ -106,7 +107,8 @@ h2{
     grid-column: 2/7;
     grid-row: 6/7;
     border-top: 2px solid grey;
-    padding-top: 25px;
+    padding-top: 5px;
+    margin-top: 50px;
 }
 
 #personnalite{
@@ -127,7 +129,7 @@ h2{
 
 #colTwo{
     border-left: dashed 1px black;
-    height: 385px;
+    height: 450px;
     width: 1px;
     grid-column: 4;
     grid-row: 4/5;
@@ -154,6 +156,18 @@ h2{
 
 #langues-mobile{
 display: none;
+}
+
+#lien-mail-mobile{
+    display: none;
+}
+
+#lien-link-mobile{
+    display: none;
+}
+
+#lien-github-mobile{
+    display: none;
 }
 
 
@@ -254,7 +268,7 @@ a:hover{
         display: block;
         grid-column: 1/4;
         grid-row: 7;
-        margin-top: 66px;
+        margin-top: 130px;
         margin-left: 20px;
         margin-right: 20px;
         justify-content: center;
@@ -275,6 +289,7 @@ a:hover{
         grid-row: 4;
         border-bottom: dashed 1px black;
         margin-top: 10px;
+        margin-bottom: -125px;
     }
     
     #xp{
@@ -285,10 +300,10 @@ a:hover{
         display: block;
         grid-column: 1/5;
         grid-row:5;
-        margin-top: 40px;
+        margin-top: 130px;
         margin-left: 20px;
         margin-right: 20px;
-        margin-bottom: -70px;
+        margin-bottom: -200px;
         text-align: justify;
         border-bottom: dashed 1px black;
     }
@@ -297,10 +312,10 @@ a:hover{
         display: block;
         grid-column:1/4;
         grid-row:6;
-        margin-top: 77px;
+        margin-top: 200px;
         margin-left: 20px;
         margin-right: 20px;
-        margin-bottom: -60px;
+        margin-bottom: -130px;
         text-align: justify;
         border-bottom: dashed 1px black;
     }
@@ -331,6 +346,18 @@ a:hover{
     }
 
     #competences{
+        display: none;
+    }
+
+    #lien-mail-mobile{
+        display: none;
+    }
+
+    #lien-link-mobile{
+        display: none;
+    }
+
+    #lien-github-mobile{
         display: none;
     }
 }
@@ -412,7 +439,7 @@ a:hover{
         grid-column: 1/5;
         grid-row: 3;
         border-bottom: dashed 1px black;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     
     #xp{
@@ -423,7 +450,7 @@ a:hover{
         display: block;
         grid-column: 1/5;
         grid-row:4;
-        margin-top: 40px;
+        margin-top: 80px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: -70px;
@@ -435,7 +462,7 @@ a:hover{
         display: block;
         grid-column:1/4;
         grid-row:5;
-        margin-top: 77px;
+        margin-top: 87px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: -60px;
@@ -470,5 +497,29 @@ a:hover{
 
     #competences{
         display: none;
+    }
+
+    #lien-mail{
+        display: none;
+    }
+
+    #lien-mail-mobile{
+        display: inline;
+    }
+
+    #lien-github{
+        display: none;
+    }
+
+    #lien-link{
+        display: none;
+    }
+
+    #lien-link-mobile{
+        display: inline;
+    }
+
+    #lien-github-mobile{
+        display: inline;
     }
 }
