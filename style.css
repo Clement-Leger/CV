@@ -87,10 +87,14 @@ h2{
 }
 
 #xp{
-    margin : 0 20px 0 20px;
+    margin : 0 -50px 0 20px;
+    padding-right: 20px;
     text-align: justify;
     grid-column: 2/4;
     grid-row:4/6;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #4b8de2 lightgray;
 }
 
 #scolaire{
