@@ -362,7 +362,7 @@ a:hover{
     #grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 70px 180px repeat(2, 1fr) 220px 1fr;
+        grid-template-rows: 70px 180px 160px 1fr 220px 100px;
     }
 
     h1{
