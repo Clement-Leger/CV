@@ -407,6 +407,9 @@ a:hover{
         grid-column: 1/5;
         grid-row: 3;
         margin: 0 20px 0 20px;
+        overflow: auto;
+        scrollbar-width: thin;
+        scrollbar-color: #4b8de2 lightgray;
     }
     
     #xp-mobile{
