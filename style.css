@@ -434,6 +434,12 @@ a:hover{
         grid-row: 6;
         margin: 0 20px 0 20px;
     }
+
+    #competences{
+        grid-column: 2/4;
+        grid-row: 5;
+        margin: 0 auto 0 auto;
+    }
     
     /* STYLE GRID & DISPLAY NONE*/
     
@@ -482,10 +488,6 @@ a:hover{
 
     ul li::before{
         content:none;
-    }
-
-    #competences{
-        display: none;
     }
 
     #lien-mail{
